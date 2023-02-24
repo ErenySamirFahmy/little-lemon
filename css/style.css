@@ -1,0 +1,101 @@
+html {
+  min-height: 100%;
+}
+body {
+  height: 100%;
+  background-color: lightgray;
+}
+header {
+  text-align: center;
+}
+#logo {
+  height: 150px;
+  width: 650px;
+  border-radius: 20px;
+}
+h1 {
+  color: rgb(248, 218, 48);
+  font-size: 50px;
+  font-weight: bold;
+}
+ul {
+  background-color: beige;
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 7px 0px;
+}
+nav a {
+  text-decoration: none;
+  padding: 7px 15px;
+}
+nav a:hover {
+  background-color: grey;
+  color: white;
+}
+.container1 {
+  display: grid;
+  grid-template-areas: "head head head" "main1 main2 main3";
+  gap: 10px;
+}
+.item {
+  background-color: antiquewhite;
+  padding: 10px;
+}
+.main1 {
+  grid-area: main1;
+  margin-left: 20px;
+}
+.main2 {
+  grid-area: main2;
+}
+.main3 {
+  grid-area: main3;
+  margin-right: 20px;
+}
+.head {
+  grid-area: head;
+  border-radius: 10px;
+  margin: 5px 20px;
+  height: 280px;
+  background-color: #495E57;
+  color: white;
+  font-size: 30px;
+}
+.main {
+  border-radius: 10px;
+}
+.container2 {
+  display: grid;
+  grid-template-areas: "foot1 foot2";
+  gap: 10px;
+  margin-top: 10px;
+}
+.foot1 {
+  grid-area: foot1;
+  margin-left: 20px;
+}
+.foot2 {
+  grid-area: foot2;
+  margin-right: 20px;
+  padding-top: 15px;
+  padding-right: 10px;
+  text-align: right;
+  border-top: 2px black solid;
+}
+#sl {
+  height: 50px;
+  width: 100px;
+  border-radius: 7px;
+}
+.photo {
+  height: 200px;
+  width: 200px;
+}
+p {
+  font-size: 20px;
+}
+#hd{float: right;height: 280px;width: 250px;border-radius: 10px;}
